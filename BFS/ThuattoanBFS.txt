@@ -1,0 +1,13 @@
+BFS (Duyệt theo chiều rộng)
+
+Đưa 1 đỉnh bất kỳ vào Hàng đợi
+while Hàng đợi chưa rỗng {
+	u = lấy đỉnh ở đầu hàng đợi ra
+	if (u đã duyệt)
+		continue;
+	Duyệt u
+	Đánh dấu u đã được duyệt
+	for các đỉnh kề v của u
+		if v chưa đượcduyệt
+			Đưa v vào hàng đợi
+}
